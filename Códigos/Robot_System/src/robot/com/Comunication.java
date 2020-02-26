@@ -57,7 +57,9 @@ public class Comunication extends JFrame {
 		this.setMinimumSize(new Dimension(700, 450));
 		this.setMaximizedBounds(new Rectangle(190, 150, 700, 480));
 		
-	
+		ImageIcon icon;
+		icon = new ImageIcon(getClass().getResource("/robot/img/RobotSystemPng.png"));
+		this.setIconImage(icon.getImage());
 		
 		
 		

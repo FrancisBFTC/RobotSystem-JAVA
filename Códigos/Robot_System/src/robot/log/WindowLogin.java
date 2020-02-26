@@ -41,7 +41,10 @@ public class WindowLogin extends JFrame {
 		this.setBounds(300, 250, 400, 300);
 		this.setTitle("Janela de login");
 		this.getContentPane().setLayout(null);
-
+		
+		ImageIcon icon;
+		icon = new ImageIcon(getClass().getResource("/robot/img/RobotSystemPng.png"));
+		this.setIconImage(icon.getImage());
 		
 		
 		label = new JLabel();
